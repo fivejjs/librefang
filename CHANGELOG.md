@@ -91,6 +91,10 @@ _33 PRs from 5 contributors since v2026.6.22-beta.22._
 
 ## [Unreleased]
 
+### Added
+
+- Publish an official project-maintained pacman repository for Arch Linux — GPG-signed packages on Cloudflare R2, installable via `pacman -Syu`, sidestepping the closed AUR registration that blocks #6341 (#6334) (@houko)
+
 ### Fixed
 
 - Keep the Telegram dashboard setup form available when its first cold Python `--describe` import exceeds the five-second boot timeout; the catalog now falls back to the adapter's compile-time schema, and the unavailable-form hint no longer claims that channel reload refreshes the boot-only schema cache (@pavver)
